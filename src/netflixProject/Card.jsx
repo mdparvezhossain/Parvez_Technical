@@ -1,4 +1,6 @@
 import React from 'react'
+import Images from './Images';
+import MoviesTitle from './MoviesTitle';
 import './netflix.css';
 
 const Card = (props) => {
@@ -6,14 +8,10 @@ const Card = (props) => {
         <>
             <div className="cards">
                 <div className="card">
-                    <img 
-                        className="card_img" 
-                        src={props.imgsrc} 
-                        alt="Card Image" 
-                    />
+                    <Images imgsrc={props.imgsrc} />
                     <div className="card_info">
                         <span className="card_catagory">{props.catagory}</span>
-                        <h3 className="card_title">{props.name}</h3>
+                        <MoviesTitle name={props.name} />
                         <a href={props.link} target="_blank">
                             <button>Watch Now</button>
                         </a>

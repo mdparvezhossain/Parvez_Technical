@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card';
-import MoviesData from '../components/MoviesData';
+import MoviesData from './MovieArrData';
 
 const Main = () => {
     return (

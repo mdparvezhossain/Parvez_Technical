@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../Index.css';
 
 const Clock = () => {
     let time = new Date();

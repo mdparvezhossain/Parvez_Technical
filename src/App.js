@@ -1,10 +1,10 @@
-import React from 'react'
-import Main from './netflixProject/Main';
-
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Forms from './components/Forms';
 const App = () => {
     return (
         <>
-           <Main />
+           <Forms />
         </>
     )
 }
